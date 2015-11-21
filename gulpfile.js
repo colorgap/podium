@@ -15,12 +15,14 @@ var config = {
             scripts:'src/app/**/*.js',
             styles: 'src/styles/**/*.scss',
             partials:'src/partials/**/*.html',
+            images:'src/images/**/*.*',
             index:'src/index.html'
         },
         dest:{
             script:'dist/js/',
             style:'dist/css/',
             partials:'dist/partials',
+            images:'dist/images',
             index:'.'
         }
     },
@@ -60,6 +62,7 @@ gulp.task('bower', function(){
     return gulp.src(bower())
         .pipe(jsFilter)
         .pipe(concat('vendor.js'))
+        .pipe(uglify())
         .pipe(gulp.dest('dist/js'))
         .pipe(cssFilter)
         .pipe(concat('vendor.css'))
@@ -79,6 +82,9 @@ gulp.task('watch', function(){
     gulp.watch(config.ui.src.styles,['sass']);
     gulp.watch(config.ui.src.partials,['partials']);
     gulp.watch(config.ui.src.index,['minifyHtml']);
-
 });
-gulp.task('default', ['sass','bower','partials','icons','minifyHtml','script']);
+gulp.task('images', function() {
+    gulp.src(config.ui.src.images)
+        .pipe(gulp.dest(config.ui.dest.images));
+});
+gulp.task('default', ['sass','bower','partials','icons','minifyHtml','script','images']);

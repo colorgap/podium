@@ -38,26 +38,35 @@
 (function() {
     'use strict';
 
-    angular.module('podium').constant('docsConfig', {
-        docs:[{
-            id:'quickStart',
-            docLabel:'Quick Start'
-        },{
-            id:'introduction',
-            docLabel:'Introduction'
-        },{
-            id:'gettingStarted',
-            docLabel:'Getting Started'
-        }],
-        template:{
-            gettingStarted: 'gettingStarted.html'
-        }
-    });
+    angular.module('podium').controller('leftNavCtrl', ['$scope','docsConfig',function($scope,docsConfig){
+        $scope.leftNavList = docsConfig.docs;
+    }]);
 })();
 (function() {
     'use strict';
 
-    angular.module('podium').controller('leftNavCtrl', ['$scope','docsConfig',function($scope,docsConfig){
-        $scope.leftNavList = docsConfig.docs;
-    }]);
+    angular.module('podium').constant('docsConfig', {
+        docs:[{
+            id:'',
+            docLabel:'Podium'
+        },{
+            id:'gettingStarted',
+            docLabel:'Getting Started'
+        },{
+            id:'config',
+            docLabel:'Configuration'
+        },{
+            id:'colors',
+            docLabel:'Colors'
+        },{
+            id:'aboutUs',
+            docLabel:'About Us'
+        }],
+        template:{
+            gettingStarted: 'gettingStarted.html',
+            config: 'config.html',
+            colors: 'colors.html',
+            aboutUs:'aboutus.html'
+        }
+    });
 })();

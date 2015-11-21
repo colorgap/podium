@@ -3,17 +3,26 @@
 
     angular.module('podium').constant('docsConfig', {
         docs:[{
-            id:'quickStart',
-            docLabel:'Quick Start'
-        },{
-            id:'introduction',
-            docLabel:'Introduction'
+            id:'',
+            docLabel:'Podium'
         },{
             id:'gettingStarted',
             docLabel:'Getting Started'
+        },{
+            id:'config',
+            docLabel:'Configuration'
+        },{
+            id:'colors',
+            docLabel:'Colors'
+        },{
+            id:'aboutUs',
+            docLabel:'About Us'
         }],
         template:{
-            gettingStarted: 'gettingStarted.html'
+            gettingStarted: 'gettingStarted.html',
+            config: 'config.html',
+            colors: 'colors.html',
+            aboutUs:'aboutus.html'
         }
     });
 })();
