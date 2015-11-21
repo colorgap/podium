@@ -9981,11 +9981,28 @@ button.close {
   right: 0px; }
 
 /* line 53, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
-.wrapper-top-56 {
-  padding-top: 56px; }
+.wrapper-top-50 {
+  padding-top: 50px; }
+
+/* line 57, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+.card-wrapper {
+  background: #FFF;
+  margin: 20px 10px;
+  text-align: center;
+  padding: 30px 20px;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 5px;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 0 3px #999;
+  -moz-box-shadow: 0 0 3px #999;
+  box-shadow: 0 0 3px #999;
+  color: 0 0 3px #999; }
 
 @media (max-width: 768px) {
-  /* line 58, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+  /* line 76, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
   .move-right-15 {
     margin-left: 15px !important; } }
 
@@ -10029,7 +10046,7 @@ button.close {
 
 /* line 38, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-scroll {
-  overflow-y: auto; }
+  padding-bottom: 50px; }
 
 /* line 41, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 #wrapper.toggled #sidebar-wrapper {
@@ -10151,21 +10168,46 @@ button.close {
     position: relative;
     margin-right: 0; } }
 
+/* line 1, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_footer.scss */
+.footer {
+  bottom: 0px;
+  position: absolute;
+  width: 250px;
+  padding: 10px;
+  color: #fff; }
+
+/* line 1, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_colorgapLogo.scss */
+.colorgap-logo {
+  color: #fff; }
+
+/* line 4, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_colorgapLogo.scss */
+.colorgap-logo-dark {
+  color: #033B5C; }
+
+/* line 7, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_colorgapLogo.scss */
+.colorgap-logo span.gap {
+  color: #F39C12;
+  font-weight: bold; }
+
+/* line 11, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_colorgapLogo.scss */
+.red {
+  color: red; }
+
 /**
  *  Do not remove this comments bellow. It's the markers used by wiredep to inject
  *  sass dependencies when defined in the bower.json of your dependencies
  */
-/* line 19, stdin */
+/* line 21, stdin */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
   color: #000;
   padding: 0.2em 0; }
 
-/* line 26, stdin */
+/* line 28, stdin */
 .thumbnail {
   height: 200px; }
-  /* line 29, stdin */
+  /* line 31, stdin */
   .thumbnail img.pull-right {
     width: 50px; }
 

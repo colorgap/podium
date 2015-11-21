@@ -1,4 +1,4 @@
-var env = process.env.NODE_ENV || 'development';
+var env = process.env.NODE_ENV || 'dev';
 var gulp = require('gulp');
     uglify = require('gulp-uglify')
     rename = require('gulp-rename')
@@ -39,9 +39,8 @@ gulp.task('sass', function(){
             config.common.bowerDir + '/fontawesome/scss'
         ]
     };
-    if(env === 'production'){
+    if(env === 'prod'){
         sassConfig.outputStyle = 'compressed';
-
     }else{
         sassConfig.sourceComments = 'map';
     }
@@ -77,12 +76,6 @@ gulp.task('script', function(){
     gulp.src(config.ui.src.scripts)
         .pipe(concat('app.js'))
         .pipe(gulp.dest(config.ui.dest.script));
-});
-gulp.task('watch', function(){
-    gulp.watch(config.ui.src.scripts,['script']);
-    gulp.watch(config.ui.src.styles,['sass']);
-    gulp.watch(config.ui.src.partials,['partials']);
-    gulp.watch(config.ui.src.index,['minifyHtml']);
 });
 gulp.task('images', function() {
     gulp.src(config.ui.src.images)

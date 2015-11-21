@@ -46,8 +46,8 @@
             id:'config',
             docLabel:'Configuration'
         },{
-            id:'colors',
-            docLabel:'Colors'
+            id:'styles',
+            docLabel:'Styling'
         },{
             id:'aboutUs',
             docLabel:'About Us'
@@ -55,7 +55,7 @@
         template:{
             gettingStarted: 'gettingStarted.html',
             config: 'config.html',
-            colors: 'colors.html',
+            styles: 'styles.html',
             aboutUs:'aboutus.html'
         }
     });

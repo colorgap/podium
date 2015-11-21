@@ -13,7 +13,6 @@
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 <div id="wrapper">
-
     <!-- Sidebar -->
     <div id="sidebar-wrapper" ng-controller="leftNavCtrl">
         <div class="text-center padding-sm brand-logo">
@@ -27,30 +26,28 @@
                     <a ui-sref="docs({pageId:item.id})">{{item.docLabel}}</a>
                     <ul class="sidebar-nav">
                         <li class="sidebar-brand text-center padding-sm" ng-repeat="subItems in item.children">
-                            <a href="#/{{subItems.id}}">{{subItems.docLabel}}</a>
+                            <a ui-sref="docs({pageId:item.id})">{{subItems.docLabel}}</a>
                         </li>
                     </ul>
                 </li>
             </ul>
         </div>
+        <div class="text-center footer">
+            < > with <i class="fa fa-heart red"></i> by <a href="https://www.colorgap.com" style="text-decoration: none"><span class="colorgap-logo">Color]<span class="gap">[gap</span></span></a>
+        </div>
     </div>
     <!-- /#sidebar-wrapper -->
-
     <!-- Page Content -->
     <div id="page-content-wrapper">
         <nav class="navbar navbar-default navbar-fixed-top padding-top-md">
             <div class="container-fluid move-right-15">
                 <div class="navbar-header">
-                    <a href="#menu-toggle" class="" id="menu-toggle"><i class="fa fa-align-left"></i></a>
+                    <a href="" id="menu-toggle"><i class="fa fa-align-left"></i></a>
                 </div>
             </div>
         </nav>
-        <div class="container-fluid wrapper-top-56">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div ui-view></div>
-                </div>
-            </div>
+        <div class="wrapper-top-50">
+            <div ui-view></div>
         </div>
     </div>
     <!-- /#page-content-wrapper -->
