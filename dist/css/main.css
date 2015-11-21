@@ -9984,6 +9984,11 @@ button.close {
 .wrapper-top-56 {
   padding-top: 56px; }
 
+@media (max-width: 768px) {
+  /* line 58, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+  .move-right-15 {
+    margin-left: 15px !important; } }
+
 /*!
  * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
@@ -10036,13 +10041,29 @@ button.close {
   position: absolute;
   padding: 0px; }
 
-/* line 51, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 50, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+#wrapper.toggled #page-content-wrapper nav.navbar-fixed-top {
+  left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+/* line 57, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+#page-content-wrapper nav.navbar-fixed-top {
+  left: 0px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+/* line 64, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 #wrapper.toggled #page-content-wrapper {
   position: absolute;
   margin-right: -250px; }
 
 /* Sidebar Styles */
-/* line 58, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 71, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav {
   position: absolute;
   top: 150px;
@@ -10051,67 +10072,81 @@ button.close {
   padding: 0;
   list-style: none; }
 
-/* line 67, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 80, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav li {
   text-indent: 20px;
   line-height: 40px; }
 
-/* line 72, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 85, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
   color: #999999; }
 
-/* line 78, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 91, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
   background: rgba(255, 255, 255, 0.2);
   border-left: #8CC63F 2px solid; }
 
-/* line 85, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 98, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
   text-decoration: none; }
 
-/* line 89, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 102, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav li.active {
   color: #fff;
   border-left: #8CC63F 2px solid; }
 
-/* line 93, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 106, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav > .sidebar-brand {
   height: 65px;
   font-size: 18px;
   line-height: 60px; }
 
-/* line 99, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 112, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav > .sidebar-brand a {
   color: #999999; }
 
-/* line 103, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 116, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav > .sidebar-brand a:hover {
   color: #fff;
   background: none; }
 
 @media (min-width: 768px) {
-  /* line 109, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 122, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #wrapper {
     padding-left: 250px; }
-  /* line 113, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 126, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #wrapper.toggled {
     padding-left: 0; }
-  /* line 117, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 130, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #sidebar-wrapper {
     width: 250px; }
-  /* line 121, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 134, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #wrapper.toggled #sidebar-wrapper {
     width: 0; }
-  /* line 125, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 138, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #page-content-wrapper {
     padding: 0px;
     position: relative; }
-  /* line 130, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 142, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  #wrapper.toggled #page-content-wrapper nav.navbar-fixed-top {
+    left: 0px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  /* line 149, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  #page-content-wrapper nav.navbar-fixed-top {
+    left: 250px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; }
+  /* line 156, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0; } }
