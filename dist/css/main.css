@@ -3699,32 +3699,32 @@ fieldset[disabled] a.btn {
 /* line 75, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-success {
   color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c; }
+  background-color: #8CC63F;
+  border-color: #7fb636; }
   /* line 11, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-success:focus, .btn-success.focus {
     color: #fff;
-    background-color: #449d44;
-    border-color: #255625; }
+    background-color: #71a230;
+    border-color: #3a5319; }
   /* line 17, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-success:hover {
     color: #fff;
-    background-color: #449d44;
-    border-color: #398439; }
+    background-color: #71a230;
+    border-color: #5e8628; }
   /* line 22, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-success:active, .btn-success.active,
   .open > .btn-success.dropdown-toggle {
     color: #fff;
-    background-color: #449d44;
-    border-color: #398439; }
+    background-color: #71a230;
+    border-color: #5e8628; }
     /* line 29, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
     .btn-success:active:hover, .btn-success:active:focus, .btn-success:active.focus, .btn-success.active:hover, .btn-success.active:focus, .btn-success.active.focus,
     .open > .btn-success.dropdown-toggle:hover,
     .open > .btn-success.dropdown-toggle:focus,
     .open > .btn-success.dropdown-toggle.focus {
       color: #fff;
-      background-color: #398439;
-      border-color: #255625; }
+      background-color: #5e8628;
+      border-color: #3a5319; }
   /* line 37, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-success:active, .btn-success.active,
   .open > .btn-success.dropdown-toggle {
@@ -3737,11 +3737,11 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-success.focus,
   fieldset[disabled] .btn-success:active,
   fieldset[disabled] .btn-success.active {
-    background-color: #5cb85c;
-    border-color: #4cae4c; }
+    background-color: #8CC63F;
+    border-color: #7fb636; }
   /* line 56, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-success .badge {
-    color: #5cb85c;
+    color: #8CC63F;
     background-color: #fff; }
 
 /* line 79, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_buttons.scss */
@@ -5346,10 +5346,10 @@ a.label:hover, a.label:focus {
 
 /* line 52, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_labels.scss */
 .label-success {
-  background-color: #5cb85c; }
+  background-color: #8CC63F; }
   /* line 7, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-success[href]:hover, .label-success[href]:focus {
-    background-color: #449d44; }
+    background-color: #71a230; }
 
 /* line 56, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_labels.scss */
 .label-info {
@@ -5627,7 +5627,7 @@ a.thumbnail.active {
 
 /* line 73, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress-bar-success {
-  background-color: #5cb85c; }
+  background-color: #8CC63F; }
   /* line 7, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_progress-bar.scss */
   .progress-striped .progress-bar-success {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -9921,45 +9921,68 @@ button.close {
 .no-margin {
   margin: 0px !important; }
 
-/* line 7, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+/* line 8, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+.padding-top-xs {
+  padding-top: 5px !important; }
+
+/* line 11, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+.padding-top-sm {
+  padding-top: 10px !important; }
+
+/* line 14, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+.padding-top-md {
+  padding-top: 15px !important; }
+
+/* line 17, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
 .padding-xs {
   padding: 5px !important; }
 
-/* line 10, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+/* line 20, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
 .margin-xs {
   margin: 5px !important; }
 
-/* line 13, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+/* line 23, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
 .padding-sm {
   padding: 10px !important; }
 
-/* line 16, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+/* line 26, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
 .margin-sm {
   margin: 10px !important; }
 
-/* line 19, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+/* line 29, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
 .padding-md {
   padding: 20px !important; }
 
-/* line 22, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+/* line 32, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
 .margin-md {
   margin: 20px !important; }
 
-/* line 25, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+/* line 35, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
 .padding-lg {
   padding: 30px !important; }
 
-/* line 28, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+/* line 38, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
 .margin-lg {
   margin: 30px !important; }
 
-/* line 31, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+/* line 41, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
 .padding-xl {
   padding: 50px !important; }
 
-/* line 34, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+/* line 44, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
 .margin-xl {
   margin: 50px !important; }
+
+/* line 47, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+.navbar-fixed-top-abs {
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  right: 0px; }
+
+/* line 53, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_helper.scss */
+.wrapper-top-56 {
+  padding-top: 56px; }
 
 /*!
  * Start Bootstrap - Simple Sidebar HTML Template (http://startbootstrap.com)
@@ -9967,7 +9990,11 @@ button.close {
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 /* Toggle Styles */
-/* line 9, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 8, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+.brand-logo {
+  height: 150px; }
+
+/* line 11, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 #wrapper {
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
@@ -9975,11 +10002,11 @@ button.close {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-/* line 17, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 19, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 #wrapper.toggled {
   padding-left: 250px; }
 
-/* line 21, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 23, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
@@ -9988,92 +10015,103 @@ button.close {
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
+  overflow-x: hidden;
   background: #033B5C;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
-/* line 36, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 38, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+.sidebar-scroll {
+  overflow-y: auto; }
+
+/* line 41, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 #wrapper.toggled #sidebar-wrapper {
   width: 250px; }
 
-/* line 40, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 45, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 #page-content-wrapper {
   width: 100%;
   position: absolute;
-  padding: 15px; }
+  padding: 0px; }
 
-/* line 46, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 51, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 #wrapper.toggled #page-content-wrapper {
   position: absolute;
   margin-right: -250px; }
 
 /* Sidebar Styles */
-/* line 53, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 58, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav {
   position: absolute;
-  top: 0;
+  top: 150px;
   width: 250px;
   margin: 0;
   padding: 0;
   list-style: none; }
 
-/* line 62, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 67, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav li {
   text-indent: 20px;
   line-height: 40px; }
 
-/* line 67, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 72, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
   color: #999999; }
 
-/* line 73, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 78, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
-  background: rgba(255, 255, 255, 0.2); }
+  background: rgba(255, 255, 255, 0.2);
+  border-left: #8CC63F 2px solid; }
 
-/* line 79, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 85, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
   text-decoration: none; }
 
-/* line 84, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 89, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+.sidebar-nav li.active {
+  color: #fff;
+  border-left: #8CC63F 2px solid; }
+
+/* line 93, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav > .sidebar-brand {
   height: 65px;
   font-size: 18px;
   line-height: 60px; }
 
-/* line 90, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 99, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav > .sidebar-brand a {
   color: #999999; }
 
-/* line 94, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+/* line 103, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
 .sidebar-nav > .sidebar-brand a:hover {
   color: #fff;
   background: none; }
 
 @media (min-width: 768px) {
-  /* line 100, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 109, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #wrapper {
     padding-left: 250px; }
-  /* line 104, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 113, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #wrapper.toggled {
     padding-left: 0; }
-  /* line 108, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 117, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #sidebar-wrapper {
     width: 250px; }
-  /* line 112, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 121, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #wrapper.toggled #sidebar-wrapper {
     width: 0; }
-  /* line 116, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 125, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #page-content-wrapper {
-    padding: 20px;
+    padding: 0px;
     position: relative; }
-  /* line 121, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
+  /* line 130, /Users/rahulchaturvedie/workspace/colorgap/lume-ws/podium/src/styles/components/_sideMenu.scss */
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0; } }

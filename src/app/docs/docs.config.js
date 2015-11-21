@@ -3,9 +3,6 @@
 
     angular.module('podium').constant('docsConfig', {
         docs:[{
-            id:'',
-            docLabel:'Podium'
-        },{
             id:'gettingStarted',
             docLabel:'Getting Started'
         },{

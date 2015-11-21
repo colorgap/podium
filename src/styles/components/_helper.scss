@@ -4,6 +4,16 @@
 .no-margin{
   margin: 0px!important;
 }
+
+.padding-top-xs{
+  padding-top: 5px!important;
+}
+.padding-top-sm{
+  padding-top: 10px!important;
+}
+.padding-top-md{
+  padding-top: 15px!important;
+}
 .padding-xs{
   padding: 5px!important;
 }
@@ -33,4 +43,13 @@
 }
 .margin-xl{
   margin: 50px!important;
+}
+.navbar-fixed-top-abs{
+  top:0px;
+  position: absolute;
+  width:100%;
+  right:0px;
+}
+.wrapper-top-56{
+  padding-top:56px;
 }

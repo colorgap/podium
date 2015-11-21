@@ -38,18 +38,8 @@
 (function() {
     'use strict';
 
-    angular.module('podium').controller('leftNavCtrl', ['$scope','docsConfig',function($scope,docsConfig){
-        $scope.leftNavList = docsConfig.docs;
-    }]);
-})();
-(function() {
-    'use strict';
-
     angular.module('podium').constant('docsConfig', {
         docs:[{
-            id:'',
-            docLabel:'Podium'
-        },{
             id:'gettingStarted',
             docLabel:'Getting Started'
         },{
@@ -69,4 +59,11 @@
             aboutUs:'aboutus.html'
         }
     });
+})();
+(function() {
+    'use strict';
+
+    angular.module('podium').controller('leftNavCtrl', ['$scope','docsConfig',function($scope,docsConfig){
+        $scope.leftNavList = docsConfig.docs;
+    }]);
 })();

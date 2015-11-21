@@ -5,7 +5,9 @@
  */
 
 /* Toggle Styles */
-
+.brand-logo{
+  height: 150px;
+}
 #wrapper {
   padding-left: 0;
   -webkit-transition: all 0.5s ease;
@@ -26,13 +28,16 @@
   height: 100%;
   margin-left: -250px;
   overflow-y: auto;
+  overflow-x: hidden;
   background: $brand-primary;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
-
+.sidebar-scroll{
+  overflow-y: auto;
+}
 #wrapper.toggled #sidebar-wrapper {
   width: 250px;
 }
@@ -40,7 +45,7 @@
 #page-content-wrapper {
   width: 100%;
   position: absolute;
-  padding: 15px;
+  padding: 0px;
 }
 
 #wrapper.toggled #page-content-wrapper {
@@ -52,7 +57,7 @@
 
 .sidebar-nav {
   position: absolute;
-  top: 0;
+  top: 150px;
   width: 250px;
   margin: 0;
   padding: 0;
@@ -74,13 +79,17 @@
   text-decoration: none;
   color: #fff;
   background: rgba(255,255,255,0.2);
+  border-left: $brand-success 2px solid;
 }
 
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
   text-decoration: none;
 }
-
+.sidebar-nav li.active{
+  color: #fff;
+  border-left: $brand-success 2px solid;
+}
 .sidebar-nav > .sidebar-brand {
   height: 65px;
   font-size: 18px;
@@ -114,7 +123,7 @@
   }
 
   #page-content-wrapper {
-    padding: 20px;
+    padding: 0px;
     position: relative;
   }
 

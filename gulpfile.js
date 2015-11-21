@@ -9,6 +9,7 @@ var gulp = require('gulp');
     gulpFilter = require('gulp-filter')
     concat = require('gulp-concat');
 
+var browserSync = require('browser-sync').create();
 var config = {
     ui:{
         src:{
@@ -86,5 +87,16 @@ gulp.task('watch', function(){
 gulp.task('images', function() {
     gulp.src(config.ui.src.images)
         .pipe(gulp.dest(config.ui.dest.images));
+});
+gulp.task('serve',['sass','script','partials','minifyHtml'], function() {
+    browserSync.init({
+        server: {
+            baseDir: "./"
+        }
+    });
+    gulp.watch(config.ui.src.scripts,['script']).on('change', browserSync.reload);
+    gulp.watch(config.ui.src.styles,['sass']).on('change', browserSync.reload);
+    gulp.watch(config.ui.src.partials,['partials']).on('change', browserSync.reload);
+    gulp.watch(config.ui.src.index,['minifyHtml']).on('change', browserSync.reload);
 });
 gulp.task('default', ['sass','bower','partials','icons','minifyHtml','script','images']);
