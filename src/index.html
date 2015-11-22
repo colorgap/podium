@@ -12,9 +12,9 @@
 <!--[if lt IE 9]>
 <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
-<div id="wrapper">
+<div id="wrapper" ng-controller="leftNavCtrl" ng-class="{'toggled':toggle}">
     <!-- Sidebar -->
-    <div id="sidebar-wrapper" ng-controller="leftNavCtrl">
+    <div id="sidebar-wrapper">
         <div class="text-center padding-sm brand-logo">
             <a href="#/">
                 <img src="dist/images/logo70.png"/>
@@ -42,7 +42,7 @@
         <nav class="navbar navbar-default navbar-fixed-top padding-top-md">
             <div class="container-fluid move-right-15">
                 <div class="navbar-header">
-                    <a href="" id="menu-toggle"><i class="fa fa-align-left"></i></a>
+                    <a ng-click="toggleLeftNav()"><i class="fa fa-align-left"></i></a>
                 </div>
             </div>
         </nav>
@@ -64,12 +64,6 @@
     ga('create', 'UA-70135742-1', 'auto');
     ga('send', 'pageview');
 
-</script>
-<script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
 </script>
 </body>
 </html>
