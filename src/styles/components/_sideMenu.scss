@@ -27,7 +27,7 @@
   width: 0;
   height: 100%;
   margin-left: -250px;
-  overflow-y: auto;
+  overflow-y: hidden;
   overflow-x: hidden;
   background: $brand-primary;
   -webkit-transition: all 0.5s ease;
@@ -36,7 +36,13 @@
   transition: all 0.5s ease;
 }
 .sidebar-scroll{
-  padding-bottom: 50px;
+  margin-top:150px;
+  margin-bottom: 50px;
+  overflow-y: auto;
+}
+.sidebar-footer{
+  position: fixed!important;
+  bottom: 0px!important;
 }
 #wrapper.toggled #sidebar-wrapper {
   width: 250px;
