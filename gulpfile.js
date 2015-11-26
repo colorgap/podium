@@ -70,6 +70,7 @@ gulp.task('bower', function(){
 });
 gulp.task('minifyHtml', function(){
     gulp.src(config.ui.src.index)
+        .pipe(minifyHtml())
         .pipe(gulp.dest(config.ui.dest.index));
 });
 gulp.task('script', function(){

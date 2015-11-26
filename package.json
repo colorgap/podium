@@ -9,7 +9,7 @@
   "author": "Colorgap",
   "license": "MIT",
   "devDependencies": {
-    "bower": "^1.6.5",
+    "bower": "^1.6.7",
     "browser-sync": "^2.10.0",
     "browser-sync-spa": "^1.0.3",
     "chalk": "^1.1.1",

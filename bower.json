@@ -17,15 +17,10 @@
     "tests"
   ],
   "dependencies": {
-    "angular-animate": "~1.4.7",
-    "angular-cookies": "~1.4.7",
     "angular-touch": "~1.4.7",
-    "angular-sanitize": "~1.4.7",
     "jquery": "~1.11.3",
     "angular-ui-router": "~0.2.15",
     "bootstrap-sass-official": "~3.3.5",
-    "angular-bootstrap": "~0.13.0",
-    "animate.css": "~3.3.0",
     "angular": "~1.4.7",
     "fontawesome": "~4.4.0"
   },
