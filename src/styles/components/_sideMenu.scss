@@ -6,7 +6,10 @@
 
 /* Toggle Styles */
 .brand-logo{
+  width: 250px;
   height: 150px;
+  position:absolute;
+  top:0px;
 }
 #wrapper {
   padding-left: 0;
@@ -27,7 +30,7 @@
   width: 0;
   height: 100%;
   margin-left: -250px;
-  overflow-y: hidden;
+  overflow-y: auto;
   overflow-x: hidden;
   background: $brand-primary;
   -webkit-transition: all 0.5s ease;
@@ -36,13 +39,14 @@
   transition: all 0.5s ease;
 }
 .sidebar-scroll{
-  margin-top:150px;
-  margin-bottom: 50px;
-  overflow-y: auto;
+  padding-top:150px;
+  padding-bottom: 50px;
 }
 .sidebar-footer{
-  position: fixed!important;
+  position: absolute!important;
   bottom: 0px!important;
+  background: $brand-primary;
+  border-top: 1px solid lighten($brand-primary, 10%)
 }
 #wrapper.toggled #sidebar-wrapper {
   width: 250px;
